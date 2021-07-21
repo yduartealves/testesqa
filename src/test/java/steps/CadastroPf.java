@@ -13,7 +13,7 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
-import junit.framework.Assert;
+import org.junit.Assert;
 
 
 import static org.hamcrest.Matchers.*;
@@ -25,6 +25,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Arrays;
+
 
 public class CadastroPf {
 	
